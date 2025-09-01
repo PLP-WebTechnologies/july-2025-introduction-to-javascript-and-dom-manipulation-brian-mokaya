@@ -35,7 +35,7 @@ document.getElementById("totalBtn").addEventListener("click", function () {
   let prices = [10, 20, 30]; 
   let total = calculateTotal(prices);
   document.getElementById("totalResult").textContent =
-    greetUser(name) + " Your total is $" + total;
+    greetUser(name) + " Your total is KES" + total;
 });
 
 // for loop countdown
